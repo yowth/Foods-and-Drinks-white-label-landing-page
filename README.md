@@ -1,1 +1,1 @@
-# Food-and-Life-white-label-landing-page
+# Foods-and-Drinks-white-label-landing-page
