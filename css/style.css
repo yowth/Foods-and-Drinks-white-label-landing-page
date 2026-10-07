@@ -6,11 +6,14 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--cream);
+  background-image: url(../img/cake/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img {
   width: 100%;
+  height: 100%;
   display: block;
 }
 
@@ -20,16 +23,23 @@ a {
 }
 
 :root {
-  --primary: #a34d27;
-  --primary-dark: #78361c;
+  --primary: rgb(242, 86, 133);
+  --primary-light: rgb(247, 141, 164);
   --cream: #f8f5ef;
   --cream-dark: #eee8dc;
   --white: #ffffff;
-  --text: #29251f;
+  --text: black;
   --text-light: #716b62;
-  --border: #ddd6ca;
+  --review-even: rgb(255, 254, 179);
+  --review-odd: rgb(242, 86, 133);
   --container: 1180px;
   --cream-super-dark: #f5deb3;
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
 }
 
 .container {
@@ -68,6 +78,29 @@ a {
   line-height: 1.7;
 }
 
+.brand-logo {
+  max-width: 100%;
+  width: 20%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+section {
+  margin: 1rem;
+}
+
+.phone-icon {
+  margin-right: auto;
+  width: 30%;
+}
+
+.socials {
+  margin-left: 2rem;
+}
+
+.socials img {
+  width: 30%;
+}
 /*BUTTON*/
 .btn {
   display: inline-flex;
@@ -109,7 +142,8 @@ a {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(248, 245, 239, 0.9);
+  background: var(--primary);
+  opacity: 0.9;
   border-bottom: 1px solid var(--border);
   backdrop-filter: blur(15px);
 }
@@ -262,7 +296,7 @@ a {
 }
 
 /*carousel( trượt ngang)*/
-.carousel {
+.products {
   margin: 1rem auto;
   gap: 1em;
   width: 100%;
@@ -273,13 +307,13 @@ a {
 }
 
 /*ẩn thanh trượt ngang*/
-.carousel::-webkit-scrollbar {
+.products::-webkit-scrollbar {
   display: none;
 }
 
 /*làm nút bấm để trượt*/
-.carousel::scroll-button(right),
-.carousel::scroll-button(left) {
+.products::scroll-button(right),
+.products::scroll-button(left) {
   content: "->";
   border: none;
   border-radius: 50%;
@@ -294,7 +328,7 @@ a {
   position-area: right center; /*chọn chỗ để đặt*/
 }
 
-.carousel::scroll-button(left) {
+.products::scroll-button(left) {
   content: "<-";
   position: fixed;
   position-anchor: --carousel;
@@ -302,13 +336,13 @@ a {
 }
 
 /*hiệu ứng khi không còn gì để trượt*/
-.carousel::scroll-button(right):disabled,
-.carousel::scroll-button(left):disabled {
+.products::scroll-button(right):disabled,
+.products::scroll-button(left):disabled {
   opacity: 0.5;
   cursor: auto;
 }
 
-.carousel div {
+.products div {
   scroll-snap-align: start; /*dùng làm mốc để scroll snap type trượt đến mép trái cùng*/
   flex-grow: 0; /*không cho nó giãn ra khi màn hình bự ra*/
   flex-shrink: 0; /*không cho co lại khi màn hình nhỏ lại*/
@@ -325,21 +359,22 @@ a {
   }
 }
 
-.back img {
-  width: 100%;
-  height: 100%;
-}
-
 .buy-btn {
-  background-color: var(--primary-dark);
+  background-color: var(--primary);
   width: 10rem;
   border-radius: 1rem;
   text-align: center;
   color: var(--cream);
   cursor: pointer;
+  color: var(--text);
 }
 
-/*SECTION 3 REVIEW CSS*/
+/*SECTION 3 REVIEWS CSS*/
+
+.reviews {
+  padding: 1rem;
+  overflow: hidden;
+}
 .review {
   border: 1px solid black;
   padding: 1rem;
@@ -364,5 +399,12 @@ a {
 }
 
 .review:nth-child(odd) {
-  transform: skew(10px);
+  transform: rotate(-10deg);
+  background-color: var(--review-odd);
+}
+
+.review:nth-child(even) {
+  transform: rotate(10deg);
+  margin-left: -20px;
+  background-color: var(--review-even);
 }
