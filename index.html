@@ -3,110 +3,188 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food and Drinks</title>
+    <title>Foods and Drinks</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!--HEADER-->
     <header class="header">
       <div class="container header-inner">
-        <a href="#" class="logo">your brand</a>
+        <a href="#home" class="logo"
+          ><img src="img/logo&icon/logo.png" alt="SaoBakery"
+        /></a>
+
         <nav class="nav">
-          <a href="#home">Home</a>
-          <a href="#bestsellers">Bestsellers</a>
-          <a href="#">Review</a>
-          <a href="#">Hương vị</a>
-          <a href="#">Khác biệt</a>
+          <a href="#home">home</a>
+          <a href="#review">review</a>
+          <a href="#products">sản phẩm</a>
+          <a href="#faq">faq</a>
         </nav>
-        <a href="#products" class="header-btn">text</a>
-        <button class="menu-btn" id="menuBtn">☰</button>
+
+        <a href="#products" class="btn primary header-btn">xem sản phẩm</a>
+        <button class="menu-btn">☰</button>
       </div>
     </header>
 
-    <!--MAIN-->
-    <main>
-      <!--HERO-->
-      <section class="hero" id="home">
-        <div class="container hero-grid">
-          <div class="hero-content">
-            <span class="eyebrow">text</span>
-            <h1>
-              text
-              <span>text</span>
-              text
-            </h1>
-            <p>
-              text text text text text text text text text text text text text
-              text text text text text text text
-            </p>
-            <div class="hero-actions">
-              <a href="#products" class="btn btn-primary">text</a>
+    <!--HERO-->
+    <section class="hero" id="home">
+      <div class="hero-shadow"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <span class="eyebrow">text</span>
 
-              <a href="#benefits" class="btn btn-outline">text</a>
-            </div>
-            <div class="hero-info">
-              <div>
-                <strong>number</strong>
-                <span>text</span>
-              </div>
-              <div>
-                <strong>number</strong>
-                <span>text</span>
-              </div>
-            </div>
+        <h1>
+          text
+          <span>text</span>
+          text
+        </h1>
+
+        <p>
+          text text text text text text text text text text text text text text
+          text text text text text text
+        </p>
+
+        <div class="actions">
+          <a href="#products" class="btn primary">text</a>
+          <a href="#review" class="btn outline">text</a>
+        </div>
+
+        <div class="stats">
+          <div>
+            <strong>number</strong>
+            <span>text</span>
           </div>
-          <div class="hero-image">
-            <img src="img/VroomVroom.jpg" alt="Món ăn" />
-            <div class="floating-card">
-              <span>text</span>
-              <strong>text</strong>
-              <small>text</small>
-            </div>
+
+          <div>
+            <strong>number</strong>
+            <span>text</span>
           </div>
         </div>
-      </section>
-    </main>
-
-    <!--SECTION 2 BESTSELLERS-->
-    <section class="s2">
-      <div class="text-container flex">
-        <div class="text">
-          <p>text text</p>
-          <span>text text</span>
-        </div>
-        <div class="text">
-          <p>text text</p>
-          <span>text text</span>
-        </div>
-      </div>
-
-      <div class="bestsellers flex" id="bestsellers">
-        <div class="carousel flex">
-          <div><img class="img" src="img/b1.jpg" alt="" /></div>
-          <div><img class="img" src="img/b1.jpg" alt="" /></div>
-          <div><img class="img" src="img/b1.jpg" alt="" /></div>
-          <div><img class="img" src="img/b1.jpg" alt="" /></div>
-          <div><img class="img" src="img/b1.jpg" alt="" /></div>
-          <div><img class="img" src="img/b1.jpg" alt="" /></div>
-          <div><img class="img" src="img/b1.jpg" alt="" /></div>
-          <div><img class="img" src="img/b1.jpg" alt="" /></div>
-          <div><img class="img" src="img/b1.jpg" alt="" /></div>
-        </div>
-      </div>
-
-      <div class="flex btn">
-        <button class="buy-btn">Đặt mua ngay!</button>
       </div>
     </section>
 
-    <!--SEcTION3 REVIEW-->
-    <section class="s3" id="review">
-      <div class="reviews flex">
-        <div class="review">
-          <p class="reviewer-name">text</p>
-          <p class="review-content">text</p>
+    <!--REVIEW-->
+    <section class="section reviews" id="review">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">text</span>
+          <h2>text</h2>
+          <p>text text text text text text text text text text text</p>
         </div>
+
+        <div class="review-slider-wrap">
+          <button class="review-arrow review-prev"><</button>
+
+          <div class="reviews-slider" data-slider>
+            <article class="review">
+              <img src="img/comment/comment1.jpg" alt="comment" />
+            </article>
+
+            <article class="review">
+              <img src="img/comment/comment2.jpg" alt="comment" />
+            </article>
+
+            <article class="review">
+              <img src="img/comment/comment3.jpg" alt="comment" />
+            </article>
+
+            <article class="review">
+              <img src="img/comment/comment4.jpg" alt="comment" />
+            </article>
+          </div>
+
+          <button class="review-arrow review-next">></button>
+        </div>
+        <div class="dots review-dots"></div>
       </div>
     </section>
+
+    <!--PRODUCTS-->
+    <section class="section products" id="products">
+      <div class="container">
+        <div class="section-title product-title">
+          <span class="eyebrow">text</span>
+          <h2>text</h2>
+          <p>text</p>
+        </div>
+
+        <div class="slider products-grid" data-slider>
+          <article class="product">
+            <img src="" alt="ảnh" />
+            <div class="product-body">
+              <h3></h3>
+              <p></p>
+              <div class="product-bottom">
+                <strong></strong>
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product">
+            <img src="" alt="ảnh" />
+            <div class="product-body">
+              <h3></h3>
+              <p></p>
+              <div class="product-bottom">
+                <strong></strong>
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product">
+            <img src="" alt="ảnh" />
+            <div class="product-body">
+              <h3></h3>
+              <p></p>
+              <div class="product-bottom">
+                <strong></strong>
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product">
+            <img src="" alt="ảnh" />
+            <div class="product-body">
+              <h3></h3>
+              <p></p>
+              <div class="product-bottom">
+                <strong></strong>
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product">
+            <img src="" alt="ảnh" />
+            <div class="product-body">
+              <h3></h3>
+              <p></p>
+              <div class="product-bottom">
+                <strong></strong>
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product">
+            <img src="" alt="ảnh" />
+            <div class="product-body">
+              <h3></h3>
+              <p></p>
+              <div class="product-bottom">
+                <strong></strong>
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
