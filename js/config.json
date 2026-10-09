@@ -1,7 +1,156 @@
 {
-    "hero":{
-        "eyebrow": "bánh",
-        "title": "bánh",
-        "description" : "bánh"
-    }
+  "page": {
+    "title": "SaoBakery",
+    "icon": "",
+    "brand_logo" : "img/logo.png"
+  },
+
+  "hero": {
+    "eyebrow": "eyebrow",
+    "title": "title",
+    "description": "description",
+    "stats": [
+      {
+        "stat": "20+",
+        "stat_description": "hương vị bánh"
+      },
+      {
+        "stat": "100%",
+        "stat_description": "nguyên liệu tươi"
+      }
+    ]
+  },
+
+  "review": {
+    "eyebrow": "eyebrow",
+    "title": "title",
+    "description": "description",
+    "comments_img": [
+      {
+        "comment": "img/comment1.jpg"
+      },
+      {
+        "comment": "img/comment2.jpg"
+      },
+      {
+        "comment": "img/comment3.jpg"
+      },
+      {
+        "comment": "img/comment4.jpg"
+      },
+      {
+        "comment": "img/comment5.jpg"
+      }
+    ]
+  },
+
+  "product": {
+    "eyebrow": "eyebrow",
+    "title": "title",
+    "description": "description",
+    "products": [
+      {
+        "name": "chocolate cake",
+        "description": "bánh sicula",
+        "price": "1 tỷ",
+        "image": "img/cake1.jpg"
+      },
+      {
+        "name": "",
+        "description": "",
+        "price": "",
+        "image": "img/cake2.jpg"
+      },
+      {
+        "name": "",
+        "description": "",
+        "price": "",
+        "image": "img/cake3.jpg"
+      },
+      {
+        "name": "",
+        "description": "",
+        "price": "",
+        "image": "img/cake4.jpg"
+      },
+      {
+        "name": "",
+        "description": "",
+        "price": "",
+        "image": "img/cake5.jpg"
+      },
+      {
+        "name": "",
+        "description": "",
+        "price": "",
+        "image": "img/cake6.jpg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "eyebrow",
+    "title": "title",
+    "description": "description",
+    "faqs": [
+      {
+        "question": "question",
+        "answer": "answer"
+      },
+      {
+        "question": "",
+        "answer": ""
+      },
+      {
+        "question": "",
+        "answer": ""
+      },
+      {
+        "question": "",
+        "answer": ""
+      }
+    ]
+  },
+
+  "footer": {
+    "description": "",
+    "socials_title": "follow us",
+    "socials_link": [
+      {
+        "logo": "img/fb-icon.png",
+        "name": "facebook",
+        "link": "#"
+      },
+      {
+        "logo": "img/fb-icon.png",
+        "name": "facebook",
+        "link": ""
+      },
+      {
+        "logo": "",
+        "name": "",
+        "link": ""
+      }
+    ]
+  },
+
+  "colors": {
+    "header-footer-theme": "#3d252b",
+    "navbar-text": "#fff",
+    "eyebrow": "#f25685",
+    "title": "#765c63",
+    "text": "#fff",
+    "text-darker": "#3a272c",
+    "text-light": "255, 255, 255",
+    "btn-theme": "#f25685",
+    "btn-theme-dark": "#d93f70",
+    "blob": "254, 212, 216",
+    "border": "#f2d8de",
+    "bg": "#f8f5ef"
+  },
+
+  "background_image": {
+    "hero-image": "img/background.jpg",
+    "product-image": "img/table-background.jpg"
+  }
 }
