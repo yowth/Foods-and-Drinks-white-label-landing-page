@@ -61,7 +61,7 @@ a {
   display: inline-block;
   margin-bottom: 12px;
   color: var(--eyebrow);
-  font-size: 18px;
+  font-size: 26px;
   font-weight: 800;
   letter-spacing: 2px;
 }
@@ -225,12 +225,12 @@ a {
 
 .hero-overlay {
   position: absolute;
-  width: 800px;
-  height: 800px;
-  left: -200px;
+  width: 55%;
+  height: 115%;
+  left: -160x;
   top: 50%;
   transform: translateY(-50%);
-  border-radius: 50%;
+  border-radius: 0 50% 50% 0;
   background: radial-gradient(
     circle,
     rgba(var(--blob), 0.9) 0%,
@@ -243,13 +243,14 @@ a {
 .hero-content {
   position: relative;
   z-index: 2;
-  max-width: var(--container);
+  max-width: min(calc(100%-40px)),var(--container);
   padding: 110px 0;
   margin-inline: auto;
 }
 
 .hero-content > * {
-  max-width: 680px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .hero h1 {
@@ -442,6 +443,12 @@ a {
   color: var(--text);
 }
 
+.product-title {
+  border-radius: 50%;
+  background-color: rgba(var(--blob), 0.5);
+  padding: 50px;
+}
+
 .products-grid {
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
@@ -537,13 +544,15 @@ a {
   padding: 22px 0;
   cursor: pointer;
   list-style: none;
+  font-size: 22px;
   font-weight: 700;
 }
 
 .faq-list details p {
   padding-bottom: 22px;
   color: var(--text-darker);
-  font-size: 15px;
+  font-size: 18px;
+  font: 700;
 }
 
 .faq-list summary::-webkit-details-marker {
@@ -554,7 +563,8 @@ a {
   content: "+";
   float: right;
   color: var(--btn-theme);
-  font-size: 22px;
+  font-size: 30x;
+  font-weight: bolder;
 }
 
 .faq-list details[open] summary::after {
@@ -586,7 +596,8 @@ a {
 .footer-brand p {
   max-width: 320px;
   color: rgba(var(--text-light), 0.5);
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .footer-column {
@@ -647,7 +658,8 @@ a {
 
 .footer-bottom p {
   color: rgba(var(--text-light), 0.5);
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -686,21 +698,30 @@ a {
   }
 
   .hero-overlay {
-    width: 700px;
-    height: 700px;
-    left: -250px;
+    width: 88vw;
+    height: 115%;
+    left: -180px;
   }
 
   .hero-content {
     padding: 90px 0;
   }
 
+  .hero-content > * {
+    max-width: 50%;
+  }
+
   .hero h1 {
     font-size: 48px;
   }
 
+  .eyebrow{
+    font-size: 24px;
+  }
+
   /*PRODUCTS*/
   .products-grid {
+    grid-template-columns: repeat(2, 1fr);
     gap: 18px;
   }
 
@@ -715,6 +736,18 @@ a {
   /*FOOTER*/
   .footer-grid {
     gap: 35px;
+  }
+
+  .footer-brand p{
+    font-size: 20px;
+  }
+
+  .footer-column a{
+    font-size: 22px;
+  }
+
+  .socials{
+    font-size: 22px;
   }
 }
 
@@ -731,6 +764,12 @@ a {
   .section {
     padding: 70px 0;
   }
+
+  .logo img {
+  width: 150px;
+  height: 80px;
+  object-fit: contain;
+}
 
   /*HEADER*/
   .header-inner {
@@ -792,15 +831,15 @@ a {
   }
 
   .hero-overlay {
-    width: 600px;
-    height: 600px;
-    left: -270px;
+    width: 155vw;
+    height: 125%;
+    left: --38vw;
     top: 50%;
   }
 
   .hero-content {
     width: calc(100% - 30px);
-    padding: 80px 0;
+    padding: 65px 0;
   }
 
   .hero-content > * {
@@ -813,7 +852,7 @@ a {
 
   .hero p {
     max-width: 100%;
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .actions {
@@ -827,7 +866,7 @@ a {
   }
 
   .stats {
-    gap: 30px;
+    gap: 15px;
     margin-top: 35px;
   }
 
@@ -837,6 +876,7 @@ a {
 
   .stats span {
     font-size: 12px;
+    width: 20px;
   }
 
   .section-title {
@@ -848,7 +888,7 @@ a {
   }
 
   .eyebrow {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   /*REVIEW*/

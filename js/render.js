@@ -22,6 +22,7 @@ async function loadConfig() {
   setAttr("page-icon", "href", config.page?.icon);
   setAttr("header-logo", "src", config.page?.brand_logo);
   setAttr("footer-logo", "src", config.page?.brand_logo);
+  setAttr("shop-link", "href", config.page?.shop_link);
 
   //HERO
   const hero = config.hero || {};
@@ -79,6 +80,7 @@ async function loadConfig() {
   const footer = config.footer || {};
   setText("footer-description", footer.description);
   setText("socials-title", footer.socials_title);
+  setText("web-watermark", footer.web_watermark);
 
   footer.socials_link?.forEach((item, index) => {
     const number = index + 1;
