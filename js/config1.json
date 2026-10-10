@@ -1,0 +1,158 @@
+{
+  "page": {
+    "title": "Sao Bakery",
+    "icon": "img/cake/logo&icon/web-icon.ico",
+    "brand_logo": "img/cake/logo&icon/logo.png",
+    "shop_link" : "#"
+  },
+
+  "hero": {
+    "eyebrow": "Ngất ngây",
+    "title": "từ những lát bánh đầu tiên cho đến vụn bánh cuối cùng!",
+    "description": "Vị ngon mê ly, duy nhất từ Sao Bakery.",
+    "stats": [
+      {
+        "stat": "20+",
+        "stat_description": "hương vị bánh"
+      },
+      {
+        "stat": "100%",
+        "stat_description": "nguyên liệu tươi"
+      }
+    ]
+  },
+
+  "review": {
+    "eyebrow": "Khách hàng",
+    "title": "nói gì về Sao Bakery?",
+    "description": "Chưa bao giờ để khách hàng rời đi trong thất vọng!",
+    "comments_img": [
+      {
+        "comment": "img/cake/comments/comment1.jpg"
+      },
+      {
+        "comment": "img/cake/comments/comment2.jpg"
+      },
+      {
+        "comment": "img/cake/comments/comment3.jpg"
+      },
+      {
+        "comment": "img/cake/comments/comment4.jpg"
+      },
+      {
+        "comment": "img/cake/comments/comment5.jpg"
+      }
+    ]
+  },
+
+  "product": {
+    "eyebrow": "những hương vị độc đáo nhất",
+    "title": "chỉ có duy nhất tại Sao Bakery",
+    "description": "",
+    "products": [
+      {
+        "name": "RED VELVET",
+        "description": "Chiếc bánh đỏ quyến rũ với lớp kem trắng muốt phủ bên ngoài, hương vị pha trộn giữa socola nhẹ và vanilla béo ngậy, kết hợp cùng độ chua dịu từ sữa bơ và lớp kem cream cheese chua ngọt đặc trưng.",
+        "price": "39k - 759k",
+        "image": "img/cake/slice3.jpg"
+      },
+      {
+        "name": "LEMON CAKE",
+        "description": "Sự kết hợp hoàn hảo giữa hương vị tươi mát và sự thanh nhẹ, sốt chanh vàng chua ngọt hài hòa làm nổi bật từng lớp bánh mềm mịn.",
+        "price": "39k - 759k",
+        "image": "img/cake/slice4.jpg"
+      },
+      {
+        "name": "Mousse Bơ",
+        "description": "Đặc trưng cho mousse bơ là màu xanh tự nhiên của lớp mousse, được chế biến từ trái bơ tươi cao cấp, thu hoạch vào đầu ngày để đảm bảo sự tươi ngon và hương vị tinh tế. Lớp mousse bơ có vị béo thanh nhẹ nhàng, kết hợp hoàn hảo với bông lan vani, tạo nên một sự kết hợp ngon miệng và độc đáo.",
+        "price": "39k - 759k",
+        "image": "img/cake/slice5.jpg"
+      },
+      {
+        "name": "TARO CAKE",
+        "description": "Bánh gồm nhân khoai môn dẻo mềm, thơm bùi kết hợp cùng lớp kem khoai môn bên ngoài. Phần bông lan khoai môn được làm mềm mềm, ẩm mịn, kết hợp cùng lớp kem nhẹ tan trong miệng.",
+        "price": "39k - 759k",
+        "image": "img/cake/slice6.jpg"
+      },
+      {
+        "name": "OREO CAKE",
+        "description": "Hương vị đậm đà của sô-cô-la từ lớp cốt bánh kết hợp với vị béo ngậy, ngọt dịu của lớp kem tươi và vụn bánh quy giòn rụm.",
+        "price": "39k - 759k",
+        "image": "img/cake/slice1.jpg"
+      },
+      {
+        "name": "CARAMEL CAKE",
+        "description": "Ngọt ngào và quyến rũ với cốt bánh bông lan socola mềm mịn, kết hợp cùng kem caramel thơm ngon và nhân phô mai nấu mịn màng, bánh mang đến sự hài hòa hoàn hảo giữa các hương vị.",
+        "price": "39k - 759k",
+        "image": "img/cake/slice2.jpg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Bạn!",
+    "title": "muốn biết thêm về Sao Bakery hong?",
+    "description": "",
+    "faqs": [
+      {
+        "question": "Tại sao phải chọn Sao Bakery?",
+        "answer": "Sao Bakery có công thức độc bản, đầu bếp lành nghề và thương hiệu lâu năm."
+      },
+      {
+        "question": "Công thức độc bản là sao?",
+        "answer": "Là những công thức được phát triển độc quyền từ những đầu bếp cao cấp lành nghề của Sao Bakery."
+      },
+      {
+        "question": "Đầu bếp cao cấp cỡ nào?",
+        "answer": "Đầu bếp của Sao Bakery đều tốt nghiệp Đại học Đầu Bếp Giỏi Học Ở Đây và đều có chứng nhận Đầu Bếp Giỏi Có Chứng Nhận Này. Vì thế, chúng tôi đảm bảo rằng từng chiếc bánh kem bạn đặt đều ngon chuẩn chất lượng."
+      },
+      {
+        "question": "Thương hiệu lâu năm là bao nhiêu năm?",
+        "answer": "Với hơn 20 năm vận hành, Sao Bakery tự tin mình đủ kinh nghiệm, trải nghiệm và tầm nhìn để cung cấp bánh kem đủ chất lượng xứng tầm với khẩu vị của Quý khách hàng."
+      }
+    ]
+  },
+
+  "footer": {
+    "description": "Hương vị ngọt ngào được tạo nên từ những điều giản dị nhất.",
+    "socials_title": "follow us",
+    "socials_link": [
+      {
+        "logo": "img/cake/logo&icon/fb-icon.png",
+        "name": "facebook",
+        "link": "#"
+      },
+      {
+        "logo": "img/cake/logo&icon/ig-icon.png",
+        "name": "instagram",
+        "link": "#"
+      },
+      {
+        "logo": "img/cake/logo&icon/tt-icon.png",
+        "name": "tik tok",
+        "link": "#"
+      }
+    ],
+    "web_watermark": "©2026 Sao Bakery."
+  },
+
+  "colors": {
+    "header-footer-theme": "#3d252b",
+    "navbar-text": "#fff",
+    "eyebrow": "#f25685",
+    "title": "#765c63",
+    "text": "#fff",
+    "text-darker": "#3a272c",
+    "text-light": "255, 255, 255",
+    "btn-theme": "#f25685",
+    "btn-theme-dark": "#d93f70",
+    "blob": "254, 212, 216",
+    "border": "#f2d8de",
+    "bg": "#f8f5ef"
+  },
+
+  "background_image": {
+    "hero-image": "img/cake/background.jpg",
+    "product-image": "img/cake/table-background.jpg"
+  }
+}

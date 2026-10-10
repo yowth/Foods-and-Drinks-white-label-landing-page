@@ -1,0 +1,158 @@
+{
+  "page": {
+    "title": "Nene matcha",
+    "icon": "img/cake/logo&icon/web-icon.ico",
+    "brand_logo": "img/matcha/logo&icon/logo.png",
+    "shop_link" : "#"
+  },
+
+  "hero": {
+    "eyebrow": "Ngất ngây",
+    "title": "từ những ngụm đầu tiên cho đến giọt cuối cùng!",
+    "description": "Vị ngon mê ly, duy nhất từ Nene Matcha.",
+    "stats": [
+      {
+        "stat": "20+",
+        "stat_description": "hương vị matcha"
+      },
+      {
+        "stat": "100%",
+        "stat_description": "nguyên liệu tươi"
+      }
+    ]
+  },
+
+  "review": {
+    "eyebrow": "Khách hàng",
+    "title": "nói gì về Nene Matcha?",
+    "description": "Chưa bao giờ để khách hàng rời đi trong thất vọng!",
+    "comments_img": [
+      {
+        "comment": "img/matcha/comments/comment1.jpg"
+      },
+      {
+        "comment": "img/matcha/comments/comment2.jpg"
+      },
+      {
+        "comment": "img/matcha/comments/comment3.jpg"
+      },
+      {
+        "comment": "img/matcha/comments/comment4.jpg"
+      },
+      {
+        "comment": "img/matcha/comments/comment5.jpg"
+      }
+    ]
+  },
+
+  "product": {
+    "eyebrow": "những hương vị độc đáo nhất",
+    "title": "chỉ có duy nhất tại Nene Matcha",
+    "description": "",
+    "products": [
+      {
+        "name": "Matcha đậu biếc",
+        "description": "Không chỉ giải nhiệt mà còn như một liều thuốc xoa dịu mọi giác quan, khiến bạn như nghiện sự kết hợp hoàn hảo giữa vị thơm của matcha, vị béo ngậy của sữa và sự thanh mát của hoa đậu biếc đọng lại mộc mạc, nhẹ nhàng nơi đầu lưỡi.",
+        "price": "19k - 109k",
+        "image": "img/matcha/flavor1.jpg"
+      },
+      {
+        "name": "Matcha bom socola",
+        "description": "Là sự hòa quyện hoàn hảo giữa cái đắng thanh tao, hậu vị ngọt ngào của trà xanh Nhật Bản và béo ngậy, tan chảy của lớp vỏ socola cao cấp.",
+        "price": "19k - 109k",
+        "image": "img/matcha/flavor2.jpg"
+      },
+      {
+        "name": "Matcha bí đỏ",
+        "description": "Là bản giao hưởng tuyệt vời của mùa thu, nơi vị đắng thanh dịu của trà xanh Nhật Bản gặp gỡ nét ngọt ngào, béo ngậy từ bí đỏ. Một thức uống không chỉ ngon ở vị, đẹp ở mắt mà còn sưởi ấm cả tâm hồn bạn!.",
+        "price": "19k - 109k",
+        "image": "img/matcha/flavor3.jpg"
+      },
+      {
+        "name": "Matcha Hibiscus",
+        "description": "Sự va chạm tuyệt đẹp giữa vị chát êm dịu, đượm hương umami từ bột trà xanh Nhật Bản và nốt chua thanh rực rỡ, mát lạnh của hoa Atiso đỏ.",
+        "price": "19k - 109k",
+        "image": "img/matcha/flavor4.jpg"
+      },
+      {
+        "name": "Matcha caramel",
+        "description": "Bản hòa tấu hương vị đỉnh cao, sự kết hợp đầy táo bạo nhưng hoàn hảo đến ngỡ ngàng giữa vị đắng thanh thuần khiết của trà xanh Nhật Bản và vị ngọt ngào, béo ngậy của sốt caramel đun chảy.",
+        "price": "19k - 109k",
+        "image": "img/matcha/flavor5.jpg"
+      },
+      {
+        "name": "Matcha đậu đỏ",
+        "description": "Sự kết hợp tinh tế giữa sắc xanh mát mắt của trà Nhật Bản và sắc đỏ trầm ấm, ngọt ngào của những hạt đậu bùi béo.",
+        "price": "19k - 109k",
+        "image": "img/matcha/flavor6.jpg"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Bạn!",
+    "title": "muốn biết thêm về Nene Matcha hong?",
+    "description": "",
+    "faqs": [
+      {
+        "question": "Tại sao phải chọn Nene Matcha?",
+        "answer": "Nene Matcha có công thức độc bản, pha chế lành nghề và thương hiệu lâu năm."
+      },
+      {
+        "question": "Công thức độc bản là sao?",
+        "answer": "Là những công thức được phát triển độc quyền từ những pha chế cao cấp lành nghề của Nene Matcha."
+      },
+      {
+        "question": "Pha chế cao cấp cỡ nào?",
+        "answer": "Pha chế của Nene Matcha đều tốt nghiệp Đại học Pha Chế Giỏi Học Ở Đây và đều có chứng nhận Pha Chế Giỏi Có Chứng Nhận Này. Vì thế, chúng tôi đảm bảo rằng từng ly matcha bạn đặt đều ngon chuẩn chất lượng."
+      },
+      {
+        "question": "Thương hiệu lâu năm là bao nhiêu năm?",
+        "answer": "Với hơn 20 năm vận hành, Nene Matcha tự tin mình đủ kinh nghiệm, trải nghiệm và tầm nhìn để cung cấp bánh kem đủ chất lượng xứng tầm với khẩu vị của Quý khách hàng."
+      }
+    ]
+  },
+
+  "footer": {
+    "description": "Hương vị ngọt ngào được tạo nên từ những điều giản dị nhất.",
+    "socials_title": "follow us",
+    "socials_link": [
+      {
+        "logo": "img/matcha/logo&icon/phone-icon.png",
+        "name": "SĐT: 012 345 6789",
+        "link": "#"
+      },
+      {
+        "logo": "img/matcha/logo&icon/fb-icon.png",
+        "name": "facebook",
+        "link": "#"
+      },
+      {
+        "logo": "img/matcha/logo&icon/tt-icon.png",
+        "name": "tik tok",
+        "link": "#"
+      }
+    ],
+    "web_watermark": "©2026 Nene Matcha."
+  },
+
+  "colors": {
+    "header-footer-theme": "#466447",
+    "navbar-text": "#fff",
+    "eyebrow": "#6F8751",
+    "title": "#466447",
+    "text": "#fff",
+    "text-darker": "#302F25",
+    "text-light": "255, 255, 255",
+    "btn-theme": "#6F8751",
+    "btn-theme-dark": "#466447",
+    "blob": "220, 229, 200",
+    "border": "#DCE5C8",
+    "bg": "#F5F0E4"
+  },
+
+  "background_image": {
+    "hero-image": "img/matcha/background.jpg",
+    "product-image": "img/matcha/table-background.jpg"
+  }
+}
