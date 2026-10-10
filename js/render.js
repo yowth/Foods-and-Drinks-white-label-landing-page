@@ -1,5 +1,5 @@
 async function loadConfig() {
-  const response = await fetch("./js/config.json");
+  const response = await fetch("./js/config2.json");
   const config = await response.json();
   const get = (id) => document.getElementById(id);
 

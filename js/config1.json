@@ -1,8 +1,8 @@
 {
   "page": {
     "title": "Sao Bakery",
-    "icon": "img/web-icon.ico.ico",
-    "brand_logo": "img/logo.png",
+    "icon": "img/cake/logo&icon/web-icon.ico",
+    "brand_logo": "img/cake/logo&icon/logo.png",
     "shop_link" : "#"
   },
 
@@ -28,19 +28,19 @@
     "description": "Chưa bao giờ để khách hàng rời đi trong thất vọng!",
     "comments_img": [
       {
-        "comment": "img/comment1.jpg"
+        "comment": "img/cake/comments/comment1.jpg"
       },
       {
-        "comment": "img/comment2.jpg"
+        "comment": "img/cake/comments/comment2.jpg"
       },
       {
-        "comment": "img/comment3.jpg"
+        "comment": "img/cake/comments/comment3.jpg"
       },
       {
-        "comment": "img/comment4.jpg"
+        "comment": "img/cake/comments/comment4.jpg"
       },
       {
-        "comment": "img/comment5.jpg"
+        "comment": "img/cake/comments/comment5.jpg"
       }
     ]
   },
@@ -54,37 +54,37 @@
         "name": "RED VELVET",
         "description": "Chiếc bánh đỏ quyến rũ với lớp kem trắng muốt phủ bên ngoài, hương vị pha trộn giữa socola nhẹ và vanilla béo ngậy, kết hợp cùng độ chua dịu từ sữa bơ và lớp kem cream cheese chua ngọt đặc trưng.",
         "price": "39k - 759k",
-        "image": "img/slice3.jpg"
+        "image": "img/cake/slice3.jpg"
       },
       {
         "name": "LEMON CAKE",
         "description": "Sự kết hợp hoàn hảo giữa hương vị tươi mát và sự thanh nhẹ, sốt chanh vàng chua ngọt hài hòa làm nổi bật từng lớp bánh mềm mịn.",
         "price": "39k - 759k",
-        "image": "img/slice4.jpg"
+        "image": "img/cake/slice4.jpg"
       },
       {
         "name": "Mousse Bơ",
         "description": "Đặc trưng cho mousse bơ là màu xanh tự nhiên của lớp mousse, được chế biến từ trái bơ tươi cao cấp, thu hoạch vào đầu ngày để đảm bảo sự tươi ngon và hương vị tinh tế. Lớp mousse bơ có vị béo thanh nhẹ nhàng, kết hợp hoàn hảo với bông lan vani, tạo nên một sự kết hợp ngon miệng và độc đáo.",
         "price": "39k - 759k",
-        "image": "img/slice5.jpg"
+        "image": "img/cake/slice5.jpg"
       },
       {
         "name": "TARO CAKE",
         "description": "Bánh gồm nhân khoai môn dẻo mềm, thơm bùi kết hợp cùng lớp kem khoai môn bên ngoài. Phần bông lan khoai môn được làm mềm mềm, ẩm mịn, kết hợp cùng lớp kem nhẹ tan trong miệng.",
         "price": "39k - 759k",
-        "image": "img/slice6.jpg"
+        "image": "img/cake/slice6.jpg"
       },
       {
         "name": "OREO CAKE",
         "description": "Hương vị đậm đà của sô-cô-la từ lớp cốt bánh kết hợp với vị béo ngậy, ngọt dịu của lớp kem tươi và vụn bánh quy giòn rụm.",
         "price": "39k - 759k",
-        "image": "img/slice1.jpg"
+        "image": "img/cake/slice1.jpg"
       },
       {
         "name": "CARAMEL CAKE",
         "description": "Ngọt ngào và quyến rũ với cốt bánh bông lan socola mềm mịn, kết hợp cùng kem caramel thơm ngon và nhân phô mai nấu mịn màng, bánh mang đến sự hài hòa hoàn hảo giữa các hương vị.",
         "price": "39k - 759k",
-        "image": "img/slice2.jpg"
+        "image": "img/cake/slice2.jpg"
       }
     ]
   },
@@ -100,7 +100,7 @@
       },
       {
         "question": "Công thức độc bản là sao?",
-        "answer": " Là những công thức được phát triển độc quyền từ những đầu bếp cao cấp lành nghề của Sao Bakery."
+        "answer": "Là những công thức được phát triển độc quyền từ những đầu bếp cao cấp lành nghề của Sao Bakery."
       },
       {
         "question": "Đầu bếp cao cấp cỡ nào?",
@@ -118,17 +118,17 @@
     "socials_title": "follow us",
     "socials_link": [
       {
-        "logo": "img/fb-icon.png",
+        "logo": "img/cake/logo&icon/fb-icon.png",
         "name": "facebook",
         "link": "#"
       },
       {
-        "logo": "img/ig-icon.png",
+        "logo": "img/cake/logo&icon/ig-icon.png",
         "name": "instagram",
         "link": "#"
       },
       {
-        "logo": "img/tt-icon.png",
+        "logo": "img/cake/logo&icon/tt-icon.png",
         "name": "tik tok",
         "link": "#"
       }
@@ -152,7 +152,7 @@
   },
 
   "background_image": {
-    "hero-image": "img/background.jpg",
-    "product-image": "img/table-background.jpg"
+    "hero-image": "img/cake/background.jpg",
+    "product-image": "img/cake/table-background.jpg"
   }
 }
